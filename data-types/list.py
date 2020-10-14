@@ -24,3 +24,22 @@ def sort_list(list, reverse = False):
 # 🛠 Sorting in-place
 # name_list.sort(reverse=False)
 # print("Original list:", name_list)
+
+# 🛠 Adding items
+name_list.append("Lupin")
+# print(name_list)
+
+name_list.insert(len(name_list), "James")
+# print(name_list)
+# ['Harry', 'Ron', 'Frank', 'Hermione', 'Lupin', 'James']
+
+# 🛠 Looking for item
+hasHarry = "Harry" in name_list
+# print("List has Harry:", hasHarry, name_list.index("Harry"))
+
+# 🛠 Removing items
+name_list.pop()
+# print(name_list)
+
+name_list.pop(0)
+print(name_list)
